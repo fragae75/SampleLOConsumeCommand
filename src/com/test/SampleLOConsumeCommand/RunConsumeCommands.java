@@ -26,7 +26,8 @@ public class RunConsumeCommands implements Runnable {
 	    private MqttClient mqttClient = null;
 	    private String sDeviceUuid;
 		
-	    public RunConsumeCommands(String sTopicName, String sAPIKey, String sServerAddress, String sDeviceUuid){
+	    public RunConsumeCommands(String sTopicName, String sAPIKey, String sServerAddress, 
+	    						String sDeviceUuid){
 			this.sTopicName = sTopicName;
 			this.sAPIKey = sAPIKey;
 			this.sServerAddress = sServerAddress;

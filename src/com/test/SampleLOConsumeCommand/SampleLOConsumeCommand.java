@@ -28,10 +28,8 @@ public class SampleLOConsumeCommand {
 	}
 	
 	public static void main(String[] args) {
-//        Random rand = new Random();
 
-        String API_KEY = MyKey.key; // <-- REPLACE!
-//        String API_KEY = "<<< REPLACE WITH valid API key value>>>"; // <-- REPLACE!
+        String API_KEY = MyKey.key; // <<< REPLACE WITH valid API key value>>>
 
         String SERVER = "tcp://liveobjects.orange-business.com:1883";
         String DEVICE_URN = "urn:lo:nsid:sensor:SampleLO001";
