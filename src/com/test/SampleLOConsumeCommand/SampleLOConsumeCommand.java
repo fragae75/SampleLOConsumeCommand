@@ -5,6 +5,7 @@ import java.util.Random;
 
 /*
  * 
+ * 
  * This Sample simulates a device that is listening to commands and reply to validate its reception
  * 
  * You can test the sending of the command from the LO portal {"Key1":"\"string_value\"","key2":"7890"}

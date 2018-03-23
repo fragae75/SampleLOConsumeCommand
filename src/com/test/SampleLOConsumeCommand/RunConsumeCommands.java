@@ -15,6 +15,7 @@ import com.google.gson.Gson;
 
 /*
  *  
+ *  
  * Thread that will subscribe as a device to the commands topic, display the messages to the console and send a response
  * 
  */
