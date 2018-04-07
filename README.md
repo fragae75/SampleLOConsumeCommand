@@ -9,6 +9,8 @@ The device will be visible in the Live Objects Park as the sensor SampleLO001. S
 - method : the command you have sent
 - counter : should be 0 unless the platform have made some retry
 
+The Commands API are available through the swagger (https://liveobjects.orange-business.com/#/faq, menu "Developer guide") at the entry "Device management command"<br>
+
 
 <h2> Installation notes </h2>
 
