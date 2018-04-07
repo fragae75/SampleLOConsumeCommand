@@ -6,7 +6,7 @@ It is a simple sample that collect/answer commands from Live Objects as a MQTT d
 
 The sample will subscribe on the dev/cmd topic.
 
-The sample will be visible in the Live Objects Park as the sensor SampleLO001. Select it and send it a command (menu "Commands"). The sample will receive it and it will answer on the dev/cmd/res topic with 3 fields : 
+The sample will be visible in the Live Objects Park as the sensor SampleLO001. Select it and send it a command (menu "Commands"). The sample will receive it on dev/cmd and it will answer on the dev/cmd/res topic with 3 fields : 
 - msg : "hello friend!"
 - method : the command you have sent
 - counter : should be 0 unless the platform have made some retry
