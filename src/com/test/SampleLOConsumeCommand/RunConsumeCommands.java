@@ -127,7 +127,7 @@ public class RunConsumeCommands implements Runnable {
 	            mqttClient.setCallback(new SimpleMqttCallback(mqttClient));
 
 	            MqttConnectOptions connOpts = new MqttConnectOptions();
-	            connOpts.setUserName("json+device"); // selecting mode "Bridge"
+	            connOpts.setUserName("json+device"); // select 'device' mode 
 	            connOpts.setPassword(sAPIKey.toCharArray()); // passing API key value as password
 	            connOpts.setCleanSession(true);
 
